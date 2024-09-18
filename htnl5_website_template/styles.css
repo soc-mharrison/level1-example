@@ -1,0 +1,33 @@
+/*   bespoke textures for background 
+https://www.w3schools.com/css/css_background.asp
+*/
+.my-texture {
+	background-image: url("images/tile-texture.jpg");
+}
+
+
+header {
+		background: #b95ce8;
+		text-align: center;
+		}
+
+			/* comment out
+			nav{
+				background: #FFFFFF;
+				border: 5px solid #000000;
+			} */
+
+/* affects links in nav */
+nav a {
+		background: #f78af7;
+		color: #FFFFFF;
+		padding: 1%;
+		border-radius: 10%;
+		text-decoration: none;
+		}
+
+/* Rollover Hover Psuedo-Class */
+nav a:hover{
+	background: #FFFFFF;
+	color: #000000;
+}
